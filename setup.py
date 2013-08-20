@@ -40,7 +40,7 @@ setup(
     license='MIT',
     author='Allan Clark',
     tests_require=['pytest'],
-    install_requires=[],
+    install_requires = [ 'pyparsing' ],
     cmdclass={'test': PyTest},
     author_email='allan.clark@gmail.com',
     description='Library to manipulate Bio-PEPA files',
